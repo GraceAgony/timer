@@ -1,0 +1,10 @@
+<div id="timerContainer">
+  <div id="time">
+    {{hours ? hours : '00'}} : {{minutes ? minutes : '00'}} : {{seconds ? seconds : '00'}}
+  </div>
+  <div id="button-container">
+  <button (click)="this.timerService.start()">Start / Stop</button>
+  <button (click)="this.timerService.wait()">Wait</button>
+  <button (click)="this.timerService.reset()">Reset</button>
+  </div>
+</div>

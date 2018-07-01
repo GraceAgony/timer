@@ -1,0 +1,35 @@
+body{
+  background-color: #942222;
+  color: white;
+  font: 20px 'work sans', sans-serif;
+}
+
+app-root{
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  height: 38px;
+  padding: 0 10px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #BD3737;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover{
+  background: #BD3737;
+}
